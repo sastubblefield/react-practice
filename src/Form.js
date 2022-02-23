@@ -6,7 +6,7 @@ return (
     <input
       className="form-control form-control-sm"
       type="search"
-      value="ENTER WORD HERE"
+      value="ENTER CITY HERE"
     ></input>
   </form>
 );
