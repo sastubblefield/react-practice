@@ -1,15 +1,16 @@
 import "./App.css";
-import Form from "./Form";
-import Results from "./Results";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div>
-      <div className="App">
-        <h1>Weather Search</h1>
-        <Form />{" "}
+      <div>
+        <h1>What would you like to search for today?</h1>
+        <Dictionary />{" "}
       </div>
-      <Results/>
+      <a href="https://github.com/sastubblefield" target="none">
+        open sources code
+      </a>
     </div>
   );
 }
